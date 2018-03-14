@@ -3,7 +3,7 @@
 <h1>Create a new restaurant</h1>
 
 
-<%= form_for(@restaurant) do |f| %>
+<%= simple_form_for(@restaurant) do |f| %>
   <div class="form-group">
     <%= f.label :name %>
     <%= f.text_field :name, class: 'form-control' %>
